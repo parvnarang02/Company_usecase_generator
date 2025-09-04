@@ -1,10 +1,10 @@
-# Company Use Case Generator 🏢⚡
+# Company Use Case Generator 
 
 An **AI-powered Business Transformation Assistant** that automates **company research, use case generation, and executive-style report creation** using **AWS Bedrock LLMs**, multi-agent orchestration, and web scraping.
 
 ---
 
-## 🚀 Features
+## Features
 - **Company Research Agent** (`src/agents/company_research.py`)  
   - Multi-agent swarm for comprehensive business analysis.  
   - Web scraping + document parsing (PDF/DOCX).  
@@ -49,25 +49,22 @@ An **AI-powered Business Transformation Assistant** that automates **company res
 Company_usecase_generator/
 │
 ├── src/
-│   ├── agents/
-│   │   ├── company_research.py
-│   │   ├── use_case_generator.py
-│   │   └── report_generator.py
-│   ├── core/
-│   │   ├── bedrock_manager.py
-│   │   └── models.py
-│   ├── services/
-│   │   ├── aws_clients.py
-│   │   └── web_scraper.py
-│   ├── utils/
-│   │   ├── cache_manager.py
-│   │   ├── prompt_processor.py
-│   │   ├── session_manager.py
-│   │   └── status_tracker.py
-│   └── orchestrator.py
+│ ├── agents/
+│ │ ├── company_research.py # Multi-agent company research
+│ │ ├── use_case_generator.py # Generate structured use cases
+│ │ └── report_generator.py # Create executive PDF reports
+│ ├── core/
+│ │ ├── bedrock_manager.py # AWS Bedrock model manager
+│ │ └── models.py # Data models for profiles & use cases
+│ ├── services/
+│ │ ├── aws_clients.py # AWS client initialization (S3, DynamoDB)
+│ │ └── web_scraper.py # Web scraping utilities
+│ ├── utils/
+│ │ ├── cache_manager.py # Cache handling with DynamoDB
+│ │ ├── prompt_processor.py # Custom prompt processor
+│ │ ├── session_manager.py # Session tracking utilities
+│ │ └── status_tracker.py # Status checkpoints & tracking
+│ └── orchestrator.py # Main orchestrator (end-to-end pipeline)
 │
-├── reports/   # Generated PDF reports
-└── README.md
-
-
-## 🏗️ Architecture
+├── reports/ # Generated PDF reports
+└── README.md # Project documentation
