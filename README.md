@@ -69,3 +69,5 @@ Company_usecase_generator/
 ├── reports/ # Generated PDF reports
 └── README.md # Project documentation
 ```
+
+<meta name="msvalidate.01" content="30A7B1CCD906578D2BC08DBE78801080" />
