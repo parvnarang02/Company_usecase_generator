@@ -1,0 +1,22 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Report Only",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/debug_report_only.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "args": [
+        "--company-name", "cloud202",
+        "--company-url", "https://www.cloud202.com",
+        "--prompt", "Focus on cost reduction solutions, prioritize automation opportunities, consider our remote workforce needs",
+        "--log-level", "WARNING",
+        "--dump-xml"
+      ]
+    }
+  ]
+}
