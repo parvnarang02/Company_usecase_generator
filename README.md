@@ -45,7 +45,7 @@ An **AI-powered Business Transformation Assistant** that automates **company res
   - `weasyprint` / `reportlab` (PDF generation)  
 - **Cloud:** AWS (Bedrock, S3, DynamoDB)  
 
-
+```
 Company_usecase_generator/
 │
 ├── src/
@@ -68,3 +68,4 @@ Company_usecase_generator/
 │
 ├── reports/ # Generated PDF reports
 └── README.md # Project documentation
+```
