@@ -69,5 +69,7 @@ Company_usecase_generator/
 ├── reports/ # Generated PDF reports
 └── README.md # Project documentation
 ```
+<img width="3840" height="3473" alt="Untitled diagram _ Mermaid Chart-2025-09-13-222157" src="https://github.com/user-attachments/assets/e8f80efd-7699-48ad-9258-51df0dd86c43" />
+
 
 <meta name="msvalidate.01" content="30A7B1CCD906578D2BC08DBE78801080" />
